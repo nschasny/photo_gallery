@@ -1,0 +1,444 @@
+html{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    margin: auto;
+    width: 1300px;
+    height: 100%;
+
+}
+
+
+h1{
+
+    color:#007d7b;
+    background-color: white;
+    font-size: 3em;
+
+}
+
+nav{
+
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+
+}
+
+ul{
+
+    display: flex;
+    justify-content: end;
+
+}
+
+li{
+
+    padding: 25px;
+    list-style: none;
+
+}
+
+main h2{
+
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    font-size: 2em;
+
+}
+
+p {
+
+    font-size: 1.25em;
+
+}
+.gallery {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 20px; 
+    
+}
+
+main{
+
+    position: relative;
+    background-color: white;
+    padding-left: 10px;
+
+}
+img{
+
+    display: inline-flex;
+    margin-top: -15px;
+
+}
+
+h2{
+
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+figcaption{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:40px;
+    color: white;
+    font-size: 1em;
+}
+
+.gallery figure:nth-child(2) figcaption {
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:270px;
+    color: white;
+
+}
+
+.gallery figure:nth-child(4) figcaption,.gallery figure:nth-child(5) figcaption  {
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:600px;
+    color: rgb(0, 0, 0);
+
+}
+
+.gallery figure:nth-child(6) figcaption{
+
+    color: black;
+
+}
+
+.gallery figure:nth-child(8) figcaption{
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:270px;
+    color: black;
+    
+    }
+
+.gallery figure:nth-child(9) figcaption{
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:270px;
+    color: black;
+        
+    }
+
+.gallery figure:nth-child(10) figcaption{
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:270px;
+    color: black;
+            
+    }
+
+.gallery figure:nth-child(11) figcaption {
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:270px;
+    color: black;
+                
+    }
+
+.gallery figure:nth-child(12) figcaption {
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:270px;
+    color: white;
+
+}
+
+#form h2{
+
+    color: white;
+
+}
+
+#form p {
+
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+footer{
+
+    color:white;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+}
+
+
+.contact-form {
+
+    position: relative;
+    left: 150px;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.input-group {
+
+    margin-bottom: 20px;
+
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input {
+    width: calc(100% - 12px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 16px;
+}
+input::placeholder{
+
+    color: #007d7b;
+    font-weight: bold;
+
+}
+
+button {
+    position: relative;
+    left: 230px;
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007d7b;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    position: relative;
+    left: 230px;
+    background-color: #2a6c5d;
+}
+
+@media screen and (max-width: 880px) {
+ 
+
+    body{
+
+        margin: auto;
+        width: 880px;
+        height: 100%;
+    
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        font-size: 1.5em;
+    
+    }
+    
+    ul{
+    
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    li{
+    
+        padding: 25px;
+        list-style: none;
+    
+    }
+
+    
+    button {
+
+        position: relative;
+        left: 70px;
+        width: 400px;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #007d7b;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+
+    }
+
+    button:hover {
+
+        position: relative;
+        left: 70px;
+        background-color: #2a6c5d;
+
+    }
+
+
+    input {
+
+        position: relative;
+        right:70px;
+        width: calc(100% - 220px);
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        font-size: 16px;
+        
+    }
+    
+    label {
+
+        position: relative;
+        right: 70px;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+        color: white;
+
+    }
+
+    footer{
+
+        margin-top: 35px;
+
+    }
+
+
+@media screen and (max-width: 485px) {
+ 
+
+    body{
+
+        margin: auto;
+        width: 485px;
+        height: 100%;
+    
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        font-size: 1.5em;
+    
+    }
+    
+    ul{
+    
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    li{
+    
+        padding: 25px;
+        list-style: none;
+    
+    }
+
+    
+    button {
+        position: relative;
+        left: -20px;
+        width: 200px;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #007d7b;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        position: relative;
+        left: -20px;
+        background-color: #2a6c5d;
+    }
+
+
+    input {
+
+        position: relative;
+        right:140px;
+        width: calc(100% - 90px);
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        font-size: 16px;
+        
+    }
+    
+    label {
+
+        position: relative;
+        right: 140px;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+        color: white;
+    }
+
+    footer{
+
+        margin-top: 35px;
+
+        }
+        
+    #form p {
+        
+        position: relative;
+        left:20px;
+        width: 90%;
+    
+        }
+        
+    }
+   
+}
